@@ -39,7 +39,7 @@ img {
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -100,6 +100,61 @@ img {
     color: var(--colour1);
 }
 
+/*other page*/
+.otherpage {
+    margin: 0 20% auto;
+    padding-top: 20px;
+}
+
+.otherpage ul li a {
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.otherpage ul li a:hover {
+    color: var(--colour2);
+}
+
+/*song main menu*/
+.albumlist{
+    color: var(--colour1);
+    text-align: center;
+}
+
+.albumlist img {
+    max-width: 30%;
+    margin-bottom: 1%;
+}
+
+.albumlist li a {
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.albumlist li a:hover {
+    color: var(--colour2);
+}
+
+/*heartbreak designer*/
+.songlisthbd {
+    padding: 0% 0%;
+    background: #650000;
+    color: #fff;
+    max-width: 300px;
+}
+
+.songlisthbd ol li {
+    text-align: left;
+    padding-left: 5%;
+    line-height: 150%;
+}
+
+.hbdthoughts .hbdoverall {
+    padding-left: 2%;
+    background: #fff;
+}
+
 /*utility class*/
 .container {
     max-width: 1100px;
@@ -111,4 +166,9 @@ img {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.albumlist .albumContain {
+    padding: 5% 5%;
+    background: var(--colour4); 
 }
