@@ -79,6 +79,10 @@ img {
     font-family: 'Trebuchet MS';
 }
 
+.text-small {
+    font-size: 1.2rem;
+}
+
 /*main page*/
 .main {
     text-align: center;
@@ -138,10 +142,11 @@ img {
 
 /*heartbreak designer*/
 .songlisthbd {
-    padding: 0% 0%;
+    padding: 1% 0%;
     background: #650000;
     color: #fff;
     max-width: 300px;
+    border-radius: 15px;
 }
 
 .songlisthbd ol li {
@@ -151,23 +156,61 @@ img {
 }
 
 .hbdthoughts .hbdoverall {
-    padding-left: 2%;
     background: #fff;
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    max-width: 950px;
+    border-radius: 15px;
+    padding: 1% 2%
+}
+
+.waysidepb .waysidethoughts {
+    background: #fff;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    max-width: 950px;
+    border-radius: 15px;
+    padding: 1% 2%
 }
 
 /*phoneboy*/
 .songlistpb {
-    padding: 0% 0%;
+    padding: 1% 0%;
     background: #fff;
     color: var(--colour2);
     max-width: 300px;
+    border-radius: 15px;
 }
 
 .songlistpb ol li {
     text-align: left;
-    padding-left: 20%;
+    padding-left: 22%;
     line-height: 150%;
 }
+
+.pbdefine {
+    background: #fff;
+    color: var(--colour2);
+    position: absolute;
+    top: 0px;
+    right: 150px;
+    max-width: 950px;
+    border-radius: 15px;
+    padding: 1% 2%
+}
+
+.phoneboypb .phoneboythoughts {
+    background: #fff;
+    color: var(--colour2);
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    max-width: 950px;
+    border-radius: 15px;
+    padding: 1% 2%
+} 
 
 /*funny*/
 .funny {
